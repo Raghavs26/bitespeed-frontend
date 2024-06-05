@@ -1,0 +1,71 @@
+.sidebar {
+  border-right: 2px solid #bfdbfe;
+  padding: 1rem;
+  background-color: #dbeafe;
+  width: 16rem;
+  height: 100vh;
+  color: #000000;
+  font-size: 0.875rem;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid grey;
+}
+
+.header {
+  font-size: 1.25rem;
+  color: #1e3a8a;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #1e3a8a;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  color: #4b5563;
+  border: 1px solid #93c5fd;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #3b82f6;
+}
+
+.button {
+  margin-top: 1rem;
+  background-color: #3b82f6;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 0.375rem;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #2563eb;
+  cursor: pointer;
+}
+
+.nodePanel {
+  width: 65%;
+}
+
+.backButton {
+  font-size: 1rem;
+  cursor: pointer;
+}

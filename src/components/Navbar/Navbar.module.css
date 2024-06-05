@@ -1,0 +1,23 @@
+.navbar {
+  background-color: #f0f0f0;
+  padding: 0.6rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-button {
+  background-color: transparent;
+  color: #2196f3;
+  border: 2px solid #2196f3;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-right: 4rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-button:hover {
+  background-color: #2196f3; /* Bluish background on hover */
+  color: white; /* White text on hover */
+}
